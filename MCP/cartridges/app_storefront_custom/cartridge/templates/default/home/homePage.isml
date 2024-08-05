@@ -3,6 +3,7 @@
         var assets = require('*/cartridge/scripts/assets.js');
         assets.addJs('/js/productTile.js');
         assets.addCss('/css/homePage.css');
+        assets.addCss('/css/homePageCustom.css');
     </isscript>
 
     <!-- +1.888.555.0199 --><!--This phone is a requirement to support existing Gomez monitor of SiteGenesis. Demandware customers can remove this.-->
@@ -15,7 +16,7 @@
             <isslot id="home-categories-m" description="Categories slots on the home page." context="global" />
         </div>
     </div>
-
+\
     <div class="container home-product-tiles homepage">
         <div class="hp-product-grid" itemtype="http://schema.org/SomeProducts" itemid="#product">
             <isslot id="home-products-m" description="Product tiles on the home page." context="global" />
