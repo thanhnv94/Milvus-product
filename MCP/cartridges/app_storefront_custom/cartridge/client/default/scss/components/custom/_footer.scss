@@ -1,0 +1,54 @@
+$color_1: #ffffff;
+$color_2: #ffd301;
+$color_3: #fff;
+$font-family_1: "SpoqaHanSans";
+
+footer {
+	background: #222222;
+	color: $color_1;
+	font-family: $font-family_1;
+	font-weight: 700;
+}
+.footer-custom {
+	h2 {
+		padding-top: 140px;
+		font-size: 51px;
+		margin-bottom: 40px;
+	}
+	p {
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 1.5;
+		margin-left: 70px;
+		margin-bottom: 90px;
+	}
+	.btn_privacy {
+		position: absolute;
+		right: 3rem;
+		top: 140px;
+		font-size: 15px;
+		color: $color_2;
+		cursor: pointer;
+	}
+	ol {
+		position: absolute;
+		right: 140px;
+		top: 230px;
+		li {
+			font-size: 15px;
+			line-height: 2;
+			a.mail {
+				color: $color_3;
+			}
+			&:last-child {
+				color: $color_2;
+				a {
+					color: $color_2;
+				}
+			}
+		}
+	}
+	.copy {
+		font-size: 15px;
+	}
+}

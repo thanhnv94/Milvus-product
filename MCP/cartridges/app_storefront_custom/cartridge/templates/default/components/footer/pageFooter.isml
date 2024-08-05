@@ -1,0 +1,24 @@
+<footer id="footercontent">
+    <div class="container pl-5">
+        <div class="row">
+            <div class="col-12 section">
+                <div class="fp-tableCell">
+                    <div class="center footer-custom">
+                        <h2>${Resource.msg('footer.contact.lable','common',null)}</h2>
+                        <p>
+                            <isprint value="${Resource.msg('footer.contact.content','common',null)}" encoding="off" />
+                        </p>
+                        <a class="btn_privacy" href="${Resource.msg('footer.contact.privacy.url','common',null)}">${Resource.msg('footer.contact.privacy','common',null)}</a>
+                        <ol>
+                            <li><isprint value="${Resource.msg('footer.contact.phone','common',null)}" encoding="off" /></li>
+                            <li><isprint value="${Resource.msg('footer.contact.phone2','common',null)}" encoding="off" /></li>
+                            <li><isprint value="${Resource.msg('footer.contact.mail','common',null)}" encoding="off" /></li>
+                            <li><isprint value="${Resource.msg('footer.contact.download','common',null)}" encoding="off" /></li>
+                        </ol>
+                        <span class="copy">${Resource.msg('footer.contact.copy','common',null)}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
