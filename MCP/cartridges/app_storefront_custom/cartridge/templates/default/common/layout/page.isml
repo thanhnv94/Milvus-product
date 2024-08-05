@@ -38,6 +38,6 @@
                         which means you need to put privacy information into another remote include
         </iscomment>
         ${dw.system.HookMgr.callHook('app.template.afterFooter', 'afterFooter', pdict) || ''}
-        <isinclude url="${URLUtils.url('ConsentTracking-Check')}"/>
+        <iscomment> <isinclude url="${URLUtils.url('ConsentTracking-Check')}"/> </iscomment>
     </body>
 </html>
