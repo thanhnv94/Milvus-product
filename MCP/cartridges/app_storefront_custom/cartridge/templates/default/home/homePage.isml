@@ -6,26 +6,103 @@
         assets.addCss('/css/homePageCustom.css');
     </isscript>
 
-    <!-- +1.888.555.0199 --><!--This phone is a requirement to support existing Gomez monitor of SiteGenesis. Demandware customers can remove this.-->
-    <div class="home-main homepage">
-        <isslot id="home-main-m" description="Main home page slot." context="global" />
-    </div>
-
-    <div class="container home-categories homepage">
-        <div class="row home-main-categories no-gutters">
-            <isslot id="home-categories-m" description="Categories slots on the home page." context="global" />
+    <div class="container homepage">
+        <div class="row d-flex justify-content-around pt-2 pb-2">
+            <div class="col-6">
+                <section class="item">
+                    <section class="item_header">
+                        <h6 class="header_title">
+                          Tableau <br>
+                          <span>Data Visulization</span>
+                        </h6>
+                        <div class="logo">
+                          <img src="${URLUtils.staticURL('/images/mn_news_logo01_border.png')}" alt="Tableau">
+                        </div>
+                    </section>
+                        <section class="symbol">
+                            <img src="${URLUtils.staticURL('/images/logo_tableau.png')}" alt="Tableau">
+                        </section>
+                        <ul class="list">
+                            <li>
+                            <h5 class="title">Tableau</h5>
+                            <p class="description">
+                                <span>Tableau</span>는 데이터 전략의
+                                진화에 따라 <br>
+                                확장 유연성을 갖춘 가장 광범위하고 심층적인 분석
+                                플랫폼입니다.<br>
+                                데이터연결, 데이터 전처리, 인사이트 도출, 공유와
+                                협업을 통한 <br>
+                                데이터 기반의 의사결정과 비즈니스 인사이트 도출이
+                                가능해집니다.
+                            </p>
+                            <ul class="navigation">
+                                <li class="btn">
+                                <a href="https://milvus.co.kr/page/solution/tableau.html">태블로 자세히 보기</a>
+                                </li>
+                            </ul>
+                            </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="link" data-tally-open="mYGAp0">
+                            <span class="text">태블로 문의하기</span>
+                            <span class="ico"></span>
+                        </a>
+                </section>
+            </div>
+            <div class="col-6">
+                <section class="item">
+                    <section class="item_header">
+                        <h6 class="header_title">
+                            Salesforce <br>
+                            Customer 360 <br>
+                            <span>The World's 1st <br>
+                            real-time crm</span>
+                        </h6>
+                        <div class="logo2">
+                            <img src="${URLUtils.staticURL('/images/logo_sfmc_partner.png')}" alt="SFMC">
+                        </div>
+                    </section>
+                    <section class="symbol">
+                        <img src="${URLUtils.staticURL('/images/logo_sfmc.png')}" alt="SFMC">
+                    </section>
+                    <ul class="list">
+                        <li class="dc">
+                            <h5 class="title">Data Cloud</h5>
+                            <p class="description">
+                            고도화된 세그멘테이션을 통해 <br>
+                            데이터를 연결하고, 통합하고, <br>
+                            필요한 세그먼트를 생성합니다.
+                            </p>
+                            <ul class="navigation">
+                                <li class="btn">
+                                    <a href="https://milvus.co.kr/page/solution/salesforce.html?page=dc">Data Cloud 자세히 보기</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h5 class="title">Marketing Cloud</h5>
+                            <p class="description">
+                            마케팅 자동화를 통해 <br>
+                            고객 맞춤화된 여정을 설정할 수 있고 <br>
+                            이메일, 모바일, 소셜, 광고 등 멀티 채널에서의 <br>
+                            캠페인 진행 및 성과 측정을 자동화 할 수 <br>
+                            있습니다.
+                            </p>
+                            <ul class="navigation">
+                                <li class="btn">
+                                    <a href="https://milvus.co.kr/page/solution/salesforce.html?page=mc">Marketing Cloud 자세히 보기</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="link" data-tally-open="mYGAp0">
+                    <span class="text">세일즈포스 마케팅 클라우드 문의하기</span>
+                    <span class="ico"></span>
+                    </a>
+                </section>
+            </div>
         </div>
     </div>
 
-    <div class="container home-product-tiles homepage">
-        <div class="hp-product-grid" itemtype="http://schema.org/SomeProducts" itemid="#product">
-            <isslot id="home-products-m" description="Product tiles on the home page." context="global" />
-        </div>
-    </div>
-
-    <div class="homepage shop-the-style">
-        <isslot id="home-product-set-m" description="Link to a Product Set." context="global" />
-    </div>
     <div class="home-email-signup">
         <div class="container">
             <form role="form">

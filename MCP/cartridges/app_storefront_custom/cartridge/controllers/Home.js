@@ -30,13 +30,8 @@ server.replace('Show', consentTracking.consent, cache.applyDefaultCache, functio
 
     pageMetaHelper.setPageMetaTags(req.pageMetaData, Site.current);
 
-    var page = PageMgr.getPage('homepage');
+    res.render('home/homePage');
 
-    if (page && page.isVisible()) {
-        res.page('homepage');
-    } else {
-        res.render('home/homePage');
-    }
     next();
 }, pageMetaData.computedPageMetaData);
 
