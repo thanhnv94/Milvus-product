@@ -104,8 +104,8 @@
             </ul>
         </li> </iscomment>
     </ul>
-    <div class="partner">
+    <iscomment> <div class="partner">
         <img src="${URLUtils.staticURL('/images/logo_sfmc_partner.png')}" alt="">
         <img src="${URLUtils.staticURL('/images/prp_small.png')}" alt="">
-    </div>
+    </div> </iscomment>
 </div>
