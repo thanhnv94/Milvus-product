@@ -1,0 +1,111 @@
+<div class="header-gnb">
+    <h1 class="logo">
+        <a href="https://milvus.co.kr/index.html"><img src="${URLUtils.staticURL('/images/logo_y.png')}" alt="MILVUS"></a>
+    </h1>
+    <ul class="gnb">
+        <li>
+            <a href="https://milvus.co.kr/page/about/introduction.html">About Milvus</a>
+            <ul>
+                <li>
+                    <a href="https://milvus.co.kr/page/about/introduction.html">Introduction</a>
+                </li>
+                <li>
+                    <a href="https://milvus.co.kr/page/about/history.html">History</a>
+                </li>
+                <li>
+                    <a href="https://milvus.co.kr/page/portfolio/list.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="https://milvus.co.kr/page/about/client.html">Client</a>
+                </li>
+                <li>
+                    <a href="https://milvus.co.kr/page/contact/contact.html">Contact</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://milvus.co.kr/page/business/crm.html?page=consulting">Business</a>
+            <ul>
+                <li>
+                    <a href="https://milvus.co.kr/page/business/crm.html?page=consulting">CRM Consulting</a>
+                </li>
+                <li>
+                    <a href="https://milvus.co.kr/page/business/crm.html?page=operation">CRM Operation</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://milvus.co.kr/page/solution/tableau.html">Solution</a>
+            <ul>
+                <li class="sub">
+                    <a href="https://milvus.co.kr/page/solution/salesforce.html">Salesforce</a>
+                    <ul>
+                        <li>
+                            <a href="https://milvus.co.kr/page/solution/salesforce.html?page=dc">- Data Cloud</a>
+                        </li>
+                        <li>
+                            <a href="https://milvus.co.kr/page/solution/salesforce.html?page=mc">- Marketing Cloud</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://milvus.co.kr/page/solution/tableau.html">Tableau</a>
+                </li>
+                <li class="sub">
+                    <a href="https://milvus.co.kr/page/solution/tableau_best_case.html">Tableau Best Case</a>
+                    <ul>
+                        <li>
+                            <a href="https://milvus.co.kr/page/solution/tableau_best_case.html">- Manufacturing</a>
+                        </li>
+                        <li>
+                            <a href="https://milvus.co.kr/page/solution/tbc_fnb.html">- F&amp;B</a>
+                        </li>
+                        <li>
+                            <a href="https://milvus.co.kr/page/solution/tbc_ngo.html">- NGO</a>
+                        </li>
+                        <li>
+                            <a href="https://milvus.co.kr/page/solution/tbc_marketing.html">- Marketing</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://milvus.co.kr/page/solution/infotopics.html">Infotopics</a>
+                </li>
+                <li>
+                    <a href="https://milvus.co.kr/page/solution/miData.html">miData</a>
+                </li>
+            </ul>
+        </li>
+        <li class="school">
+            <a href="https://milvus.co.kr/page/data_school/dataschool.mi" target="_blank">
+                DataSchool
+            </a>
+            <ul>
+                <li>
+                    <a href="https://milvus.co.kr/page/data_school/dataschool.mi" target="_blank">Dashboard Library</a>
+                </li>
+                <li>
+                    <a href="https://milvus.co.kr/page/data_school/online_video/online.mi" target="_blank">Online
+                        Education</a>
+                </li>
+                <li>
+                    <a href="https://milvus.co.kr/page/data_school/offline_edu/offline.mi" target="_blank">Offline
+                        Education</a>
+                </li>
+                <li>
+                    <a href="https://milvus.co.kr/page/page/data_school/tableau_edu/tableau.mi" target="_blank">Tableau Public
+                        Class</a>
+                </li>
+                <li>
+                    <a href="https://milvus.co.kr/page/data_school/salesforce_edu/salesforce_edu.mi"
+                        target="_blank">Salesforce
+                        Education</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="partner">
+        <img src="${URLUtils.staticURL('/images/logo_sfmc_partner.png')}" alt="">
+        <img src="${URLUtils.staticURL('/images/prp_small.png')}" alt="">
+    </div>
+</div>
