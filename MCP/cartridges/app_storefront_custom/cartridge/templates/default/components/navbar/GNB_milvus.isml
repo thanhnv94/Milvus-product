@@ -4,8 +4,8 @@
     </h1>
     <ul class="gnb">
         <li>
-            <a href="https://milvus.co.kr/page/about/introduction.html">About Milvus</a>
-            <ul>
+            <a href="${URLUtils.url('Search-Show', 'cgid', 'root')}">Education ALL</a>
+            <iscomment> <ul>
                 <li>
                     <a href="https://milvus.co.kr/page/about/introduction.html">Introduction</a>
                 </li>
@@ -21,22 +21,22 @@
                 <li>
                     <a href="https://milvus.co.kr/page/contact/contact.html">Contact</a>
                 </li>
-            </ul>
+            </ul> </iscomment>
         </li>
         <li>
-            <a href="https://milvus.co.kr/page/business/crm.html?page=consulting">Business</a>
-            <ul>
+            <a href="${URLUtils.url('Search-Show', 'cgid', 'tableau-education')}">Tableau Education</a>
+            <iscomment> <ul>
                 <li>
                     <a href="https://milvus.co.kr/page/business/crm.html?page=consulting">CRM Consulting</a>
                 </li>
                 <li>
                     <a href="https://milvus.co.kr/page/business/crm.html?page=operation">CRM Operation</a>
                 </li>
-            </ul>
+            </ul> </iscomment>
         </li>
         <li>
-            <a href="https://milvus.co.kr/page/solution/tableau.html">Solution</a>
-            <ul>
+            <a href="${URLUtils.url('Search-Show', 'cgid', 'salesforce-education')}">Salesforce  Education</a>
+            <iscomment> <ul>
                 <li class="sub">
                     <a href="https://milvus.co.kr/page/solution/salesforce.html">Salesforce</a>
                     <ul>
@@ -74,9 +74,9 @@
                 <li>
                     <a href="https://milvus.co.kr/page/solution/miData.html">miData</a>
                 </li>
-            </ul>
+            </ul> </iscomment>
         </li>
-        <li class="school">
+        <iscomment> <li class="school">
             <a href="https://milvus.co.kr/page/data_school/dataschool.mi" target="_blank">
                 DataSchool
             </a>
@@ -102,7 +102,7 @@
                         Education</a>
                 </li>
             </ul>
-        </li>
+        </li> </iscomment>
     </ul>
     <div class="partner">
         <img src="${URLUtils.staticURL('/images/logo_sfmc_partner.png')}" alt="">

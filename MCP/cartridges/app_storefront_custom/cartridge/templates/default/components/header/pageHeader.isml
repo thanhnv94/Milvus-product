@@ -1,5 +1,5 @@
 <header>
-    <isinclude template="components/navbar/NGB_milvus.isml" />
+    <isinclude template="components/navbar/GNB_milvus.isml" />
     
     <nav class="nav-custom">
         <div class="header container">
