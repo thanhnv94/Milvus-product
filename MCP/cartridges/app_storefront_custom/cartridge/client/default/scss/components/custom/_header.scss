@@ -6,9 +6,9 @@ $font-family_1: "ITCAvantGardePro", Arial, sans-serif;
 $background-color_1: rgba(255, 255, 255, 0.1);
 
 .header-gnb {
-	position: absolute;
-	left: 0;
-	top: 0;
+	// position: absolute;
+	// left: 0;
+	// top: 0;
 	width: 100%;
 	height: auto;
 	display: flex;
@@ -224,5 +224,19 @@ $background-color_1: rgba(255, 255, 255, 0.1);
 }
 
 .nav-custom {
-    margin-top: 70px;
+    // margin-top: 70px;
+	@media (min-width: 769px) {
+		.navbar.bg-inverse .navbar-nav .nav-item + .nav-item {
+			margin-left: calc(100% / 10);
+		}
+	}
+	.nav-link-custom {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+}
+
+.bg-color {
+	background-color: #444 !important;
 }
